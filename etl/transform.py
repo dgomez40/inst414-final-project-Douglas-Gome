@@ -26,8 +26,11 @@ def outliers(pollutant_merge):
     return pollutant_merge
 
 def normalization(pollutant_merge):
+    #will normalize data
     scaler = StandardScaler()
-    merged[['pm2.5', 'temperature']] = scaler.fit_transform(merged[['pm2.5', 'temperature']])
+    pollutant_merge[['pm2.5', 'temperature']] = scaler.fit_transform(pollutant_merge[['pm2.5', 'temperature']])
+
+
 
 
 
