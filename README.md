@@ -17,5 +17,4 @@ This project analyzes the relationship between weather conditions and air pollut
 
 ## **Requirements**
 Install all dependencies:
-```bash
 pip install -r requirements.txt
